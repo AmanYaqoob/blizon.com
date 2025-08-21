@@ -9,27 +9,27 @@ const accordionItems = [
   {
     id: 1,
     title: 'Compliance Dashboard',
-    imageUrl: 'https://placehold.co/400x450/16325B/ffffff?text=Account+Safety+%26+Compliance+Features',
+    imageUrl: '/Compliance Dashboard.png',
   },
   {
     id: 2,
     title: 'Professional Network',
-    imageUrl: 'https://placehold.co/400x450/1A2947/ffffff?text=B2B+Networking+%26+Reputation+Tools',
+    imageUrl: '/Professional Network.png',
   },
   {
     id: 3,
     title: 'Smart Automation',
-    imageUrl: 'https://placehold.co/400x450/16325B/ffffff?text=Zapier+for+Social+Media+Growth',
+    imageUrl: '/Smart Automation.png',
   },
   {
     id: 4,
     title: 'Analytics Dashboard',
-    imageUrl: 'https://placehold.co/400x450/1A2947/ffffff?text=Real-time+Monitoring+%26+ROI+Analytics',
+    imageUrl: '/Analytics Dashboard.png',
   },
   {
     id: 5,
     title: 'Template Library',
-    imageUrl: 'https://placehold.co/400x450/16325B/ffffff?text=Pre-built+Trobs+Templates',
+    imageUrl: '/Template Library.png',
   },
 ];
 
