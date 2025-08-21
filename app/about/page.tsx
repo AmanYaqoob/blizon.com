@@ -15,7 +15,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section 
         className="pt-32 pb-24 px-4 snap-start"
-        style={{ background: `linear-gradient(135deg, #16325B 0%, #0F1419 50%, #1A2947 100%)` }}
+        style={{ background: `linear-gradient(180deg, #16325B 0%, #0F1419 50%, #1A2947 100%)` }}
       >
         <div className="max-w-6xl mx-auto text-center">
           <motion.div
@@ -43,7 +43,7 @@ export default function AboutPage() {
       {/* Mission & Vision Section */}
       <section 
         className="py-24 px-4 snap-start"
-        style={{ background: `linear-gradient(135deg, #0F1419 0%, #16325B 50%, #1A2947 100%)` }}
+        style={{ background: `linear-gradient(180deg, #1A2947 0%, #16325B 50%, #0F1419 100%)` }}
       >
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -99,7 +99,7 @@ export default function AboutPage() {
       {/* Our Story Section */}
       <section 
         className="py-24 px-4"
-        style={{ background: `linear-gradient(135deg, #16325B 0%, #0F1419 50%, #1A2947 100%)` }}
+        style={{ background: `linear-gradient(180deg, #0F1419 0%, #1A2947 50%, #16325B 100%)` }}
       >
         <div className="max-w-6xl mx-auto">
           <motion.div
@@ -167,7 +167,7 @@ export default function AboutPage() {
       {/* Values Section */}
       <section 
         className="py-24 px-4 snap-start"
-        style={{ background: `linear-gradient(135deg, #16325B 0%, #0F1419 50%, #1A2947 100%)` }}
+        style={{ background: `linear-gradient(180deg, #16325B 0%, #0F1419 50%, #1A2947 100%)` }}
       >
         <div className="max-w-6xl mx-auto">
           <motion.div
