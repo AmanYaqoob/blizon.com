@@ -74,7 +74,7 @@ function Header() {
         </div>
         <div className="flex lg:justify-center">
           {/* <p className="font-semibold text-2xl font-serif text-white">Blizon</p> */}
-          <a href="/"><Image src={logo} width={100} /></a>
+          <a href="/"><Image src={logo} width={100} alt="Blizon Logo" className="md:w-[100px] w-[150px]" /></a>
         </div>
 
         <div className="flex justify-end w-full gap-4">

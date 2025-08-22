@@ -22,7 +22,7 @@ export function TestimonialsSection({
       author: {
         name: "Sarah Chen",
         title: "CTO",
-        company: "TechFlow Solutions"
+        company: "Retreat Worldwide"
       },
       text: "Blizon transformed our entire infrastructure. What used to take us months now happens in weeks. Their technical expertise and strategic thinking are unmatched."
     },
@@ -30,7 +30,7 @@ export function TestimonialsSection({
       author: {
         name: "Marcus Rodriguez", 
         title: "Founder",
-        company: "InnovateAI"
+        company: "Treasure Hunter"
       },
       text: "Working with Blizon was the best decision we made. They didn't just build our platform - they architected our success. 300% growth in 6 months."
     },
@@ -38,7 +38,7 @@ export function TestimonialsSection({
       author: {
         name: "Emily Watson",
         title: "VP of Engineering", 
-        company: "DataForge"
+        company: "Polie.com"
       },
       text: "The level of automation Blizon delivered has revolutionized our operations. We've eliminated 80% of manual processes and scaled without adding headcount."
     },
@@ -46,7 +46,7 @@ export function TestimonialsSection({
       author: {
         name: "David Kim",
         title: "CEO",
-        company: "CloudSync Pro"
+        company: "Nexus"
       },
       text: "Blizon's team feels like an extension of our own. Their deep understanding of our business needs and flawless execution made all the difference."
     },
@@ -54,7 +54,7 @@ export function TestimonialsSection({
       author: {
         name: "Lisa Park",
         title: "Product Director",
-        company: "NextGen Analytics"
+        company: "Retreat Worldwide"
       },
       text: "From concept to deployment in record time. Blizon's expertise in AI integration gave us a competitive edge we never thought possible."
     },
@@ -62,7 +62,7 @@ export function TestimonialsSection({
       author: {
         name: "James Thompson",
         title: "Operations Manager",
-        company: "ScaleUp Ventures"
+        company: "Treasure Hunter"
       },
       text: "The ROI on our Blizon partnership was immediate. Their automation solutions saved us 40 hours per week and improved accuracy by 95%."
     }
@@ -86,7 +86,7 @@ export function TestimonialsSection({
         </div>
 
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden">
-          <div className="group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row [--duration:8s]">
+          <div className="group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row [--duration:20s]">
             <div className="flex shrink-0 justify-around [gap:var(--gap)] animate-marquee flex-row group-hover:[animation-play-state:paused]">
               {[...Array(2)].map((_, setIndex) => (
                 testimonials.map((testimonial, i) => (
@@ -116,10 +116,10 @@ export function TestimonialsSection({
             Join the companies that chose to build their future with us
           </p>
           <div className="flex flex-wrap items-center justify-center gap-8 opacity-60">
-            <div className="text-gray-500 font-semibold">TechFlow Solutions</div>
-            <div className="text-gray-500 font-semibold">InnovateAI</div>
-            <div className="text-gray-500 font-semibold">DataForge</div>
-            <div className="text-gray-500 font-semibold">CloudSync Pro</div>
+            <div className="text-gray-500 font-semibold">Retreat Worldwide</div>
+            <div className="text-gray-500 font-semibold">Treasure Hunter</div>
+            <div className="text-gray-500 font-semibold">Polie.com</div>
+            <div className="text-gray-500 font-semibold">Nexus</div>
           </div>
         </div>
       </div>

@@ -38,12 +38,9 @@ export function CTASection() {
         <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
         Let's discuss the vision you've been told is impossible. We specialize in turning ambitious ideas into market-leading realities.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 mb-12">
-          <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-white text-lg px-8 py-4">
-            Challenge Us With Your Vision
-          </Button>
-          <Button size="lg" variant="outline" className="text-white border-white hover:bg-white hover:text-black text-lg px-8 py-4">
-            Book Free Consultation
+        <div className="flex flex-col sm:flex-row gap-4 mb-12 justify-center">
+          <Button size="lg" className="bg-blue-500 hover:bg-blue-600 text-white text-lg md:text-xl px-10 py-5 md:px-12 md:py-6" asChild>
+            <a href="/contact">Start Your Project</a>
           </Button>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 w-full max-w-4xl">

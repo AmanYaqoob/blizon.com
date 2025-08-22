@@ -1,4 +1,4 @@
-import { MoveRight, PhoneCall } from "lucide-react";
+import { MoveRight } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 
@@ -20,12 +20,9 @@ function FinalCTASection() {
               into market-leading products. From SaaS platforms to AI automation - we make the impossible, possible.
             </p>
           </div>
-          <div className="flex flex-row gap-4">
-            <Button className="gap-4" variant="outline">
-              Book Free Consultation <PhoneCall className="w-4 h-4" />
-            </Button>
-            <Button className="gap-4">
-              Start Your Project <MoveRight className="w-4 h-4" />
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="gap-4 text-lg md:text-xl px-8 py-4 md:px-10 md:py-5" asChild>
+              <a href="/contact">Start Your Project <MoveRight className="w-5 h-5" /></a>
             </Button>
           </div>
         </div>

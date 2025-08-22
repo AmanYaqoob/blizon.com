@@ -101,21 +101,17 @@ export function TrobyxShowcase() {
               Trobyx: Empowering Professional Growth
             </h1>
             <p className="text-lg text-gray-300 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-              We built, launched, and scaled our own platform. From concept to 10,000+ users in 8 months using the same technology we deliver to our clients.
+              We built, launched, and scaled our own platform. From concept to market in 2 months using the same technology we deliver to our clients.
             </p>
             
             {/* Key metrics */}
             <div className="grid grid-cols-2 gap-6 mb-8 max-w-md mx-auto lg:mx-0">
               <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold text-white mb-1">10,000+</div>
-                <div className="text-gray-400 text-sm">Active Users</div>
-              </div>
-              <div className="text-center lg:text-left">
                 <div className="text-2xl font-bold text-white mb-1">99.8%</div>
                 <div className="text-gray-400 text-sm">Uptime</div>
               </div>
               <div className="text-center lg:text-left">
-                <div className="text-2xl font-bold text-white mb-1">8 Months</div>
+                <div className="text-2xl font-bold text-white mb-1">2 Months</div>
                 <div className="text-gray-400 text-sm">To Market</div>
               </div>
               <div className="text-center lg:text-left">

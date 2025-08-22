@@ -255,7 +255,7 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
                   excellence.
                 </span>
               </h2>
-              <div className="mt-4 w-12 sm:w-16 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent opacity-30 mx-auto"></div>
+              <div className="mt-6 mb-2 w-12 sm:w-16 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent opacity-30 mx-auto"></div>
             </div>
 
             <div className="text-center max-w-5xl mx-auto relative">
